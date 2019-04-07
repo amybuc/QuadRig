@@ -7,7 +7,7 @@ import shiboken2
 import maya.cmds as mc
 import maya.OpenMayaUI as MayaUI
 
-SCRIPT_LOC = os.path.split("C:/QuadRigTool/Quadromatic_v3.py")[0]
+SCRIPT_LOC = os.path.split("C:/QuadRig/QuadRig_v3.py")[0]
 
 def loadUiWidget (uifilename, parent=None):
 	loader = QtUiTools.QUiLoader()
@@ -307,6 +307,8 @@ class templateUiDemo():
 			mc.poleVectorConstraint( orientString+"knee_ctrl", orientString + "upperLeg_ik")
 
 		if function == "tail":
+
+			#TAIL FUNCTION IS A WORK IN PROGRESS
 
 			for i in range(0, selSize, 1):
 				mc.rename(listObjs[i], "tail" + "% d_jnt" % num)
