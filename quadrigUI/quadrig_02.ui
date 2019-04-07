@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>409</width>
+    <height>449</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Quadru-Rig</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="bgLabel">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>40</y>
+      <width>321</width>
+      <height>381</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>bgGraphic.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="lArmBtn">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>90</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(170, 174, 219);
+color: rgb(0, 0, 0);</string>
+    </property>
+    <property name="text">
+     <string>L_ARM</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="lLegBtn">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>240</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(170, 174, 219);
+color: rgb(0, 0, 0);</string>
+    </property>
+    <property name="text">
+     <string>L_LEG</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="rLegBtn">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>240</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(170, 174, 219);
+color: rgb(0, 0, 0);</string>
+    </property>
+    <property name="text">
+     <string>R_LEG</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="rArmBtn">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>90</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(170, 174, 219);
+color: rgb(0, 0, 0);</string>
+    </property>
+    <property name="text">
+     <string>R_ARM</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="spineBtn">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>200</y>
+      <width>101</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(170, 174, 219);
+color: rgb(0, 0, 0);</string>
+    </property>
+    <property name="text">
+     <string>SPINE</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>10</y>
+      <width>371</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>QUADROMATIC AUTORIG</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="tailBtn">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>340</y>
+      <width>101</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(170, 174, 219);
+color: rgb(0, 0, 0);</string>
+    </property>
+    <property name="text">
+     <string>TAIL</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>409</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
